@@ -4,7 +4,7 @@ def fizzbuzz(int)
     "Fizz" # Go fizz
   else int % 5 == 0 # if the number int is divisible by 3
     "Buzz" # Go fizz
-else int % 3 == 0 && int % 5 == 0
+  elsif int % 3 == 0 && int % 5 == 0
     "FizzBuzz"
   end
 end
